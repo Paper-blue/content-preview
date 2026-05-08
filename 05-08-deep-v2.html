@@ -4,174 +4,195 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>OpenAI 正式杀死了 AGI 条款，也杀死了自己的理想主义</title>
+<style>
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  line-height: 1.8;
+  color: #333;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fafafa;
+}
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 30px 0 20px;
+  color: #1a1a1a;
+}
+.meta {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+.lead {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  background: #f5f5f5;
+  border-left: 3px solid #333;
+}
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 40px 0 20px;
+  color: #1a1a1a;
+}
+p {
+  margin: 0 0 20px;
+  text-align: justify;
+}
+blockquote {
+  margin: 25px 0;
+  padding: 15px 20px;
+  background: #f8f8f8;
+  border-left: 3px solid #666;
+  color: #555;
+  font-style: italic;
+}
+ul {
+  margin: 15px 0;
+  padding-left: 25px;
+}
+li {
+  margin-bottom: 10px;
+}
+strong {
+  font-weight: 700;
+  color: #1a1a1a;
+}
+.author-note {
+  margin-top: 50px;
+  padding: 20px;
+  background: #f0f0f0;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #666;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+</style>
 </head>
 <body>
 
-<div class="st-wrapper" style="padding: 24px 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1a1a1a; line-height: 1.8; font-size: 15px; background-color: #fafafa; background-image: linear-gradient(90deg, rgba(70,130,180,0.04) 1px, transparent 1px), linear-gradient(rgba(70,130,180,0.04) 1px, transparent 1px); background-size: 8px 8px;">
+<h1>OpenAI 正式杀死了 AGI 条款，也杀死了自己的理想主义</h1>
 
-  <!-- 品牌行 -->
-  <div class="st-brand" style="display: flex; align-items: center; margin-bottom: 20px;">
-    <span class="dot" style="width: 8px; height: 8px; background: #4682B4; margin-right: 10px; display: inline-block;"></span>
-    <span class="label" style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 3px; color: #4682B4;">说透 / SHUOTOU</span>
-    <span class="line" style="flex: 1; height: 1px; background: #d0d0d0; margin-left: 12px; display: inline-block;"></span>
-  </div>
+<div class="meta">
+📅 2026-05-08 &nbsp;|&nbsp; 🏷 深度分析 &nbsp;|&nbsp; 👁 阅读约 12 分钟
+</div>
 
-  <!-- 副标题区 -->
-  <div class="st-subtitle" style="padding: 16px 0; margin-bottom: 20px; border-top: 2px solid #1a1a1a; border-bottom: 1px solid #e0e0e0;">
-    <div class="tag" style="font-family: 'Courier New', monospace; font-size: 10px; letter-spacing: 2px; color: #999; margin-bottom: 6px;">SUBTITLE</div>
-    <div class="text" style="font-size: 14px; line-height: 1.7; color: #666;">当一个公司说"我们要拯救人类"的时候，它在融资。当它说"我们要为股东创造价值"的时候，它在说实话</div>
-  </div>
+<div class="lead">
+当一个公司说"我们要拯救人类"的时候，它在融资。当它说"我们要为股东创造价值"的时候，它在说实话。OpenAI 移除 AGI 条款的那一天，可能是它最诚实的一天。
+</div>
 
-  <!-- 封面配图 -->
-  <div class="st-cover" style="margin-bottom: 22px; overflow: hidden;">
-    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80" style="width: 100%; height: auto; display: block;" />
-  </div>
+<!-- 封面配图 -->
+<img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80" alt="AI 概念图" />
 
-  <!-- 段落一：那个条款 -->
-  <div class="st-para" style="margin-bottom: 22px; background-color: #fff; padding: 16px 14px; border-top: 1px solid #e8e8e8; border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8; border-bottom: 1px solid #f0f0f0;">
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">2026 年 4 月 27 日，OpenAI 和微软宣布了一件小事：他们修改了合作协议</p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">修改的内容里，有一个词被悄悄删除了——<span class="hl-text" style="font-weight: 700;">AGI</span></p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">如果你不是 AI 行业的从业者，你可能没听过这个条款。它存在于 OpenAI 和微软 2019 年签下的合作协议中，原文大意是：如果 OpenAI 宣布实现了通用人工智能（AGI），微软的所有商业权利将自动终止</p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">这个条款的诡异之处在于：<span class="hl-data" style="border-bottom: 2px solid #4682B4; padding-bottom: 1px; font-weight: 700;">AGI 从来没有被精确定义过</span>。OpenAI 的董事会——或者说，OpenAI 的 CEO <span class="hl-text" style="font-weight: 700;">Sam Altman</span>——可以在任何时候宣布"我们达到了 AGI"。一旦这个宣布发生，微软花出去的 <span class="hl-data" style="border-bottom: 2px solid #4682B4; padding-bottom: 1px; font-weight: 700;">130 亿美元</span>投资、所有的 IP 授权、Azure 上的独家集成，全部归零</p>
-    <p style="margin: 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">这不是技术条款。这是核武器。所以 2026 年 4 月 27 日，他们把它删了</p>
-  </div>
+<h2>一、那个条款</h2>
 
-  <!-- 分隔符 -->
-  <div class="st-sep" style="text-align: center; margin: 6px 0 22px 0;">
-    <span style="font-family: 'Courier New', monospace; font-size: 14px; letter-spacing: 8px; color: #ccc;">· · · · ·</span>
-  </div>
+<p>2026 年 4 月 27 日，OpenAI 和微软宣布了一件小事：他们修改了合作协议。</p>
 
-  <!-- 段落二：1220亿美元的成人礼 -->
-  <div class="st-para" style="margin-bottom: 22px; background-color: #fff; padding: 16px 14px; border-top: 1px solid #e8e8e8; border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8; border-bottom: 1px solid #f0f0f0;">
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">要理解为什么 AGI 条款必须死，你得先看另一个数字</p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">2026 年 3 月 31 日，OpenAI 完成了人类历史上最大的私人融资轮：<span class="hl-data" style="border-bottom: 2px solid #4682B4; padding-bottom: 1px; font-weight: 700;">1220 亿美元</span>。投资者包括 Amazon（50 亿）、Nvidia（30 亿）、SoftBank（30 亿），以及继续参与的 Microsoft。估值达到 <span class="hl-data" style="border-bottom: 2px solid #4682B4; padding-bottom: 1px; font-weight: 700;">8520 亿美元</span>——超过 Netflix、Uber 和 Airbnb 的市值总和</p>
-  </div>
+<p>修改的内容里，有一个词被悄悄删除了——<strong>AGI</strong>。</p>
 
-  <!-- 数据卡 -->
-  <div class="st-data" style="padding: 16px 18px; margin: 0 0 22px 0; background: #fff; border: 1px solid #d0d0d0; border-left: 3px solid #4682B4;">
-    <div class="data-label" style="font-family: 'Courier New', monospace; font-size: 10px; letter-spacing: 2px; color: #4682B4; margin-bottom: 8px;">DATA — 融资结构</div>
-    <div class="data-row" style="margin-bottom: 4px; font-size: 14px; line-height: 1.7; color: #1a1a1a;">
-      <span class="data-num" style="font-family: 'Courier New', monospace; font-size: 20px; font-weight: 700; color: #4682B4;">$1220亿</span>
-      <span class="data-desc" style="color: #999; font-size: 12px;">— 史上最大私人融资轮</span>
-    </div>
-    <div class="data-divider" style="height: 1px; background: #e8e8e8; margin: 8px 0;"></div>
-    <div class="data-row" style="margin-bottom: 4px; font-size: 14px; line-height: 1.7; color: #1a1a1a;">
-      <span class="data-num" style="font-family: 'Courier New', monospace; font-size: 20px; font-weight: 700; color: #4682B4;">$8520亿</span>
-      <span class="data-desc" style="color: #999; font-size: 12px;">— 估值超过 Netflix + Uber + Airbnb</span>
-    </div>
-    <div class="data-divider" style="height: 1px; background: #e8e8e8; margin: 8px 0;"></div>
-    <div class="data-row" style="margin-bottom: 4px; font-size: 14px; line-height: 1.7; color: #1a1a1a;">
-      <span class="data-num" style="font-family: 'Courier New', monospace; font-size: 20px; font-weight: 700; color: #4682B4;">$350亿</span>
-      <span class="data-desc" style="color: #999; font-size: 12px;">— Amazon 条件资金（需 2028 年前 IPO 或宣布 AGI）</span>
-    </div>
-    <div class="data-divider" style="height: 1px; background: #e8e8e8; margin: 8px 0;"></div>
-    <div class="data-row" style="margin-bottom: 0; font-size: 14px; line-height: 1.7; color: #1a1a1a;">
-      <span class="data-num" style="font-family: 'Courier New', monospace; font-size: 20px; font-weight: 700; color: #4682B4;">$0</span>
-      <span class="data-desc" style="color: #999; font-size: 12px;">— AGI 条款移除后，IPO 之路扫清</span>
-    </div>
-  </div>
+<p>如果你不是 AI 行业的从业者，你可能没听过这个条款。它存在于 OpenAI 和微软 2019 年签下的合作协议中，原文大意是：如果 OpenAI 宣布实现了通用人工智能（AGI），微软的所有商业权利将自动终止。</p>
 
-  <div class="st-para" style="margin-bottom: 22px; background-color: #fff; padding: 16px 14px; border-top: 1px solid #e8e8e8; border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8; border-bottom: 1px solid #f0f0f0;">
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">但融资文件里藏着一个更关键的细节：Amazon 的 50 亿美元中，有 35 亿是"有条件的"</p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">条件是什么？OpenAI 必须在 2028 年 12 月前完成 IPO，或者宣布 AGI</p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">这是一个精心设计的两难。如果 OpenAI 宣布 AGI，那 Amazon 的 35 亿立即到账——但微软的权利同时终止，整个商业架构可能崩塌。如果 OpenAI 不宣布 AGI 但也不 IPO，那 35 亿就打水漂</p>
-    <p style="margin: 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">OpenAI 的选择是第三条路：<span class="hl-text" style="font-weight: 700;">让 AGI 不再是条件</span>。2026 年 4 月 27 日，AGI 条款被删除。Amazon 的条件被改写。微软的权利延续到 2032 年，无论 OpenAI 是否实现了 AGI。<span class="hl-data" style="border-bottom: 2px solid #4682B4; padding-bottom: 1px; font-weight: 700;">OpenAI 的上市之路被扫清</span></p>
-  </div>
+<p>这个条款的诡异之处在于：<strong>AGI 从来没有被精确定义过</strong>。OpenAI 的董事会——或者说，OpenAI 的 CEO Sam Altman——可以在任何时候宣布"我们达到了 AGI"。一旦这个宣布发生，微软花出去的 <strong>130 亿美元</strong>投资、所有的 IP 授权、Azure 上的独家集成，全部归零。</p>
 
-  <!-- 分隔符 -->
-  <div class="st-sep" style="text-align: center; margin: 6px 0 22px 0;">
-    <span style="font-family: 'Courier New', monospace; font-size: 14px; letter-spacing: 8px; color: #ccc;">· · · · ·</span>
-  </div>
+<p>这不是技术条款。这是核武器。</p>
 
-  <!-- 段落三：从拯救人类到卖广告 -->
-  <div class="st-para" style="margin-bottom: 22px; background-color: #fff; padding: 16px 14px; border-top: 1px solid #e8e8e8; border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8; border-bottom: 1px solid #f0f0f0;">
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">OpenAI 的收入故事在 2026 年发生了质变</p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">根据 CFO <span class="hl-text" style="font-weight: 700;">Sarah Friar</span> 的披露，OpenAI 的年化经常性收入（ARR）从 2024 年的 20 亿美元，跳到了 2025 年底的 60 亿，再到 2026 年 2 月的 <span class="hl-data" style="border-bottom: 2px solid #4682B4; padding-bottom: 1px; font-weight: 700;">250 亿</span>。每周活跃用户超过 9 亿，付费订阅者超过 5000 万，<span class="hl-data" style="border-bottom: 2px solid #4682B4; padding-bottom: 1px; font-weight: 700;">92%</span> 的财富 500 强公司使用了 ChatGPT</p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">但这些数字只是旧故事。<span class="hl-text" style="font-weight: 700;">新的故事是广告</span></p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">2026 年 5 月初，OpenAI 正式上线了 ChatGPT 的自助广告管理系统。模式很简单：广告主根据对话上下文理解用户意图，在聊天界面中植入"对话式广告"。OpenAI 从 Meta 挖来了广告业务的高管，组建了专门的商业化团队</p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">试点效果惊人：上线不到 6 周，广告年化收入就超过了 <span class="hl-data" style="border-bottom: 2px solid #4682B4; padding-bottom: 1px; font-weight: 700;">1 亿美元</span>。分析师预测，到 2026 年底广告收入将达到 25 亿美元，2030 年可能突破 1000 亿</p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">与此同时，OpenAI 在砍掉"支线任务"。Sora 视频生成团队被大幅缩减。ChatGPT 原计划的色情内容功能被取消。科学部门被重组，资源转向"更有商业回报"的方向</p>
-    <p style="margin: 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;"><span class="hl-text" style="font-weight: 700;">Sam Altman</span> 的公开言论也在变化。2023 年，他说："我们的使命是确保通用人工智能造福全人类。" 2025 年，他说："OpenAI 必须成为一家伟大的企业，才能资助我们的使命。" 2026 年，他在内部会议上说的是：<span class="hl-text" style="font-weight: 700;">"我们需要向投资者证明，每一美元投入都能产生回报。"</span></p>
-  </div>
+<p>所以 2026 年 4 月 27 日，他们把它删了。AGI 不再是一个合同终点。它不再是一个可以单方面触发的终止开关。<strong>它什么都不是了</strong>。</p>
 
-  <!-- 引用卡 -->
-  <div class="st-quote" style="padding: 14px 18px; margin: 0 0 22px 0; border: 1px solid #d0d0d0; background: transparent;">
-    <p style="font-size: 14px; line-height: 1.7; color: #555; font-style: italic; margin: 0;">"当一个公司说'我们要拯救人类'的时候，它在融资。当它说'我们要为股东创造价值'的时候，它在说实话。"</p>
-    <div class="src" style="font-family: 'Courier New', monospace; font-size: 10px; color: #aaa; margin-top: 6px; font-style: normal;">— 基于 Altman 言论变化的结构性观察</div>
-  </div>
+<h2>二、1220 亿美元的成人礼</h2>
 
-  <!-- 分隔符 -->
-  <div class="st-sep" style="text-align: center; margin: 6px 0 22px 0;">
-    <span style="font-family: 'Courier New', monospace; font-size: 14px; letter-spacing: 8px; color: #ccc;">· · · · ·</span>
-  </div>
+<p>要理解为什么 AGI 条款必须死，你得先看另一个数字。</p>
 
-  <!-- 段落四：微软的精明 -->
-  <div class="st-para" style="margin-bottom: 22px; background-color: #fff; padding: 16px 14px; border-top: 1px solid #e8e8e8; border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8; border-bottom: 1px solid #f0f0f0;">
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">新合同里，微软表面上失去了很多</p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">OpenAI 不再独家绑定 Azure。签约第二天，OpenAI 模型就出现在了 AWS Bedrock 上。Google Cloud 也是潜在的目标。微软不再能独占 OpenAI 的云服务权</p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">但微软得到了更实际的东西</p>
-  </div>
+<p>2026 年 3 月 31 日，OpenAI 完成了人类历史上最大的私人融资轮：<strong>1220 亿美元</strong>。投资者包括 Amazon（50 亿）、Nvidia（30 亿）、SoftBank（30 亿），以及继续参与的 Microsoft。估值达到 <strong>8520 亿美元</strong>——超过 Netflix、Uber 和 Airbnb 的市值总和。</p>
 
-  <!-- 结构卡 -->
-  <div class="st-data" style="padding: 16px 18px; margin: 0 0 22px 0; background: #fff; border: 1px solid #d0d0d0; border-left: 3px solid #4682B4;">
-    <div class="data-label" style="font-family: 'Courier New', monospace; font-size: 10px; letter-spacing: 2px; color: #4682B4; margin-bottom: 8px;">STRUCT — 微软得到什么</div>
-    <div class="data-row" style="margin-bottom: 4px; font-size: 14px; line-height: 1.7; color: #1a1a1a;">→ <span class="hl-data" style="border-bottom: 2px solid #4682B4; padding-bottom: 1px; font-weight: 700;">20%</span> 收入分成锁定到 2030 年（原计划降到 8%）</div>
-    <div class="data-row" style="margin-bottom: 4px; font-size: 14px; line-height: 1.7; color: #1a1a1a;">→ IP 授权延续到 2032 年，非独家</div>
-    <div class="data-row" style="margin-bottom: 4px; font-size: 14px; line-height: 1.7; color: #1a1a1a;">→ 从所有云平台收入中抽成</div>
-    <div class="data-row" style="margin-bottom: 0; font-size: 14px; line-height: 1.7; color: #1a1a1a;">→ AGI 风险归零</div>
-  </div>
+<p>但融资文件里藏着一个更关键的细节：Amazon 的 50 亿美元中，有 35 亿是"有条件的"。</p>
 
-  <div class="st-para" style="margin-bottom: 22px; background-color: #fff; padding: 16px 14px; border-top: 1px solid #e8e8e8; border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8; border-bottom: 1px solid #f0f0f0;">
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">首先，20% 的收入分成被锁定到 2030 年。在原计划中，这个比例本该逐年下降，到 2030 年降到 8%。现在被锁定在 20%。如果 OpenAI 的 ARR 继续以当前速度增长，这中间的差额是<span class="hl-data" style="border-bottom: 2px solid #4682B4; padding-bottom: 1px; font-weight: 700;">数百亿美元</span></p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">其次，微软的 IP 授权延续到 2032 年，而且变成了非独家。这意味着任何竞争对手都可以在 AWS 或 Google Cloud 上部署 OpenAI 模型——但微软依然从所有平台的收入中抽成</p>
-    <p style="margin: 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">这不是分手。这是成熟。签约的第二天，AWS CEO <span class="hl-text" style="font-weight: 700;">Andy Jassy</span> 在推特上发了两个字：<span class="hl-text" style="font-weight: 700;">"有趣。"</span></p>
-  </div>
+<p>条件是什么？OpenAI 必须在 2028 年 12 月前完成 IPO，或者宣布 AGI。</p>
 
-  <!-- 分隔符 -->
-  <div class="st-sep" style="text-align: center; margin: 6px 0 22px 0;">
-    <span style="font-family: 'Courier New', monospace; font-size: 14px; letter-spacing: 8px; color: #ccc;">· · · · ·</span>
-  </div>
+<p>这是一个精心设计的两难。如果 OpenAI 宣布 AGI，那 Amazon 的 35 亿立即到账——但微软的权利同时终止，整个商业架构可能崩塌。如果 OpenAI 不宣布 AGI 但也不 IPO，那 35 亿就打水漂。</p>
 
-  <!-- 段落五：整个行业的转身 -->
-  <div class="st-para" style="margin-bottom: 22px; background-color: #fff; padding: 16px 14px; border-top: 1px solid #e8e8e8; border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8; border-bottom: 1px solid #f0f0f0;">
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">OpenAI 不是唯一在变的 AI 公司</p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">Anthropic——那个曾经以"AI 安全"为核心叙事的公司——在 2026 年 Q1 实现了 <span class="hl-data" style="border-bottom: 2px solid #4682B4; padding-bottom: 1px; font-weight: 700;">80 倍</span>的增长。它的年化收入从 2025 年底的 90 亿美元跳到了 2026 年 5 月的 440 亿。它签下了可能是 AI 行业历史上最疯狂的算力合同清单，包括从 <span class="hl-text" style="font-weight: 700;">Elon Musk</span> 那里租下 22 万块 GPU</p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">Google 在 2026 年 Cloud Next 大会上发布了第八代 TPU，同时和 Broadcom 签了五年供应协议。Meta 放弃了自研 AI 芯片，转投 Google 的 TPU。DeepSeek——中国最具理想主义色彩的 AI 公司——在 2026 年 5 月启动了首轮融资，估值 450 亿美元</p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">2025 年 AI 行业的关键词是"对齐"（Alignment）和"安全"。2026 年的关键词是<span class="hl-text" style="font-weight: 700;">"收入"和"IPO"</span></p>
-    <p style="margin: 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">这不是批评。这是描述。AI 行业的理想主义阶段结束了。商业竞争阶段开始了</p>
-  </div>
+<p>OpenAI 的选择是第三条路：<strong>让 AGI 不再是条件</strong>。2026 年 4 月 27 日，AGI 条款被删除。Amazon 的条件被改写。微软的权利延续到 2032 年，无论 OpenAI 是否实现了 AGI。<strong>OpenAI 的上市之路被扫清</strong>。</p>
 
-  <!-- 分隔符 -->
-  <div class="st-sep" style="text-align: center; margin: 6px 0 22px 0;">
-    <span style="font-family: 'Courier New', monospace; font-size: 14px; letter-spacing: 8px; color: #ccc;">· · · · ·</span>
-  </div>
+<p>这不是技术决定。这是商业决定。1220 亿美元的投资者不想赌一个"也许我们这辈子都看不到 AGI"的公司。他们想要一个确定的商业模式、可预测的收入曲线、和一条通往 IPO 的清晰道路。</p>
 
-  <!-- 段落六：最诚实的一天 -->
-  <div class="st-para" style="margin-bottom: 22px; background-color: #fff; padding: 16px 14px; border-top: 1px solid #e8e8e8; border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8; border-bottom: 1px solid #f0f0f0;">
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">回到 2026 年 4 月 27 日</p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">那一天，OpenAI 正式删除了 AGI 条款。它说：AGI 不再是一个可以单方面触发的合同终点。它不再是一个让投资者夜不能寐的幽灵。它是一个词，一个概念，一个愿景——但不是法律条款</p>
-    <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">从那一天起，OpenAI 不再需要假装 AGI 是某种可测量的里程碑。它不再需要为了融资而承诺"我们离 AGI 还有 X 年"。它不再需要用一个模糊的概念来定义自己的成功或失败</p>
-    <p style="margin: 0; font-size: 15px; line-height: 1.9; color: #1a1a1a;">它只需要做一个普通的科技公司：发布产品、获取用户、创造收入、为股东回报。OpenAI 移除 AGI 条款的那一天，可能是它<span class="hl-text" style="font-weight: 700;">最诚实的一天</span></p>
-  </div>
+<p>AGI 条款之死，是 OpenAI 从"理想主义"转向"现实主义"的第一个公开信号。</p>
 
-  <!-- 收束区 -->
-  <div class="st-closure" style="border-top: 2px solid #1a1a1a; border-bottom: 2px solid #1a1a1a; padding: 18px 0; margin: 22px 0;">
-    <p style="font-size: 14px; line-height: 1.8; color: #444; font-weight: 500; margin: 0;">1999 年，互联网泡沫顶峰，Pets.com 的 CEO 在广告里说"我们要改变世界"。三个月后公司破产。2021 年，加密货币狂热期，Sam Bankman-Fried 说"我们要通过有效利他主义拯救人类"。一年后他进了监狱。历史反复证明：当科技公司开始说"拯救人类"的时候，往往是它们准备上市的前奏</p>
-  </div>
+<h2>三、从拯救人类到卖广告</h2>
 
-  <!-- 底部品牌行 -->
-  <div class="st-footer" style="margin-top: 24px; padding: 12px 0; border-top: 1px solid #e0e0e0; display: flex; align-items: center; justify-content: space-between;">
-    <div>
-      <div class="brand" style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 2px; color: #999;">ZAYEN知览</div>
-      <div class="sub" style="font-family: 'Courier New', monospace; font-size: 10px; color: #ccc; margin-top: 3px;">说透 · SHUOTOU · 知览</div>
-    </div>
-    <div class="dots">
-      <span style="display: inline-block; width: 6px; height: 6px; background: #4682B4; margin-left: 4px;"></span>
-      <span style="display: inline-block; width: 6px; height: 6px; background: #4682B4; margin-left: 4px; opacity: 0.6;"></span>
-      <span style="display: inline-block; width: 6px; height: 6px; background: #4682B4; margin-left: 4px; opacity: 0.3;"></span>
-    </div>
-  </div>
+<p>OpenAI 的收入故事在 2026 年发生了质变。</p>
 
+<p>根据 CFO Sarah Friar 的披露，OpenAI 的年化经常性收入（ARR）从 2024 年的 20 亿美元，跳到了 2025 年底的 60 亿，再到 2026 年 2 月的 <strong>250 亿</strong>。每周活跃用户超过 9 亿，付费订阅者超过 5000 万，<strong>92%</strong> 的财富 500 强公司使用了 ChatGPT。</p>
+
+<p>但这些数字只是旧故事。<strong>新的故事是广告</strong>。</p>
+
+<p>2026 年 5 月初，OpenAI 正式上线了 ChatGPT 的自助广告管理系统。模式很简单：广告主根据对话上下文理解用户意图，在聊天界面中植入"对话式广告"。OpenAI 从 Meta 挖来了广告业务的高管，组建了专门的商业化团队。</p>
+
+<p>试点效果惊人：上线不到 6 周，广告年化收入就超过了 <strong>1 亿美元</strong>。分析师预测，到 2026 年底广告收入将达到 25 亿美元，2030 年可能突破 1000 亿。</p>
+
+<p>与此同时，OpenAI 在砍掉"支线任务"。Sora 视频生成团队被大幅缩减。ChatGPT 原计划的色情内容功能被取消。科学部门被重组，资源转向"更有商业回报"的方向。</p>
+
+<p><strong>Sam Altman</strong> 的公开言论也在变化。2023 年，他说："我们的使命是确保通用人工智能造福全人类。" 2025 年，他说："OpenAI 必须成为一家伟大的企业，才能资助我们的使命。" 2026 年，他在内部会议上说的是：<strong>"我们需要向投资者证明，每一美元投入都能产生回报。"</strong></p>
+
+<p>从"拯救人类"到"为股东创造价值"，这条路 OpenAI 走了三年。</p>
+
+<h2>四、微软的精明</h2>
+
+<p>新合同里，微软表面上失去了很多。</p>
+
+<p>OpenAI 不再独家绑定 Azure。签约第二天，OpenAI 模型就出现在了 AWS Bedrock 上。Google Cloud 也是潜在的目标。微软不再能独占 OpenAI 的云服务权。</p>
+
+<p>但微软得到了更实际的东西。</p>
+
+<p>首先，20% 的收入分成被锁定到 2030 年。在原计划中，这个比例本该逐年下降，到 2030 年降到 8%。现在被锁定在 20%。如果 OpenAI 的 ARR 继续以当前速度增长，这中间的差额是<strong>数百亿美元</strong>。</p>
+
+<p>其次，微软的 IP 授权延续到 2032 年，而且变成了非独家。这意味着任何竞争对手都可以在 AWS 或 Google Cloud 上部署 OpenAI 模型——但微软依然从所有平台的收入中抽成。</p>
+
+<p>最后，AGI 条款的移除让微软的投资变得安全。不再有"OpenAI 突然宣布 AGI 然后一切归零"的风险。</p>
+
+<p>这不是分手。这是成熟。签约的第二天，AWS CEO <strong>Andy Jassy</strong> 在推特上发了两个字：<strong>"有趣。"</strong></p>
+
+<h2>五、整个行业的转身</h2>
+
+<p>OpenAI 不是唯一在变的 AI 公司。</p>
+
+<p>Anthropic——那个曾经以"AI 安全"为核心叙事的公司——在 2026 年 Q1 实现了 <strong>80 倍</strong>的增长。它的年化收入从 2025 年底的 90 亿美元跳到了 2026 年 5 月的 440 亿。它签下了可能是 AI 行业历史上最疯狂的算力合同清单，包括从 <strong>Elon Musk</strong> 那里租下 22 万块 GPU。</p>
+
+<p>Google 在 2026 年 Cloud Next 大会上发布了第八代 TPU，同时和 Broadcom 签了五年供应协议。Meta 放弃了自研 AI 芯片，转投 Google 的 TPU。DeepSeek——中国最具理想主义色彩的 AI 公司——在 2026 年 5 月启动了首轮融资，估值 450 亿美元。</p>
+
+<p>2025 年 AI 行业的关键词是"对齐"（Alignment）和"安全"。2026 年的关键词是<strong>"收入"和"IPO"</strong>。</p>
+
+<p>这不是批评。这是描述。AI 行业的理想主义阶段结束了。商业竞争阶段开始了。</p>
+
+<h2>六、最诚实的一天</h2>
+
+<p>回到 2026 年 4 月 27 日。</p>
+
+<p>那一天，OpenAI 正式删除了 AGI 条款。它说：AGI 不再是一个可以单方面触发的合同终点。它不再是一个让投资者夜不能寐的幽灵。它是一个词，一个概念，一个愿景——但不是法律条款。</p>
+
+<p>从那一天起，OpenAI 不再需要假装 AGI 是某种可测量的里程碑。它不再需要为了融资而承诺"我们离 AGI 还有 X 年"。它不再需要用一个模糊的概念来定义自己的成功或失败。</p>
+
+<p>它只需要做一个普通的科技公司：发布产品、获取用户、创造收入、为股东回报。</p>
+
+<p>当一个公司说"我们要拯救人类"的时候，它在融资。当它说"我们要为股东创造价值"的时候，它在说实话。</p>
+
+<p>OpenAI 移除 AGI 条款的那一天，可能是它<strong>最诚实的一天</strong>。</p>
+
+<p>下一次你听到"某某 AI 公司即将实现 AGI"的时候，可以问自己一个问题：他们合同里的 AGI 条款，还在吗？</p>
+
+<div class="author-note">
+<strong>作者注</strong><br><br>
+本文数据来源于 The Verge、The Information、Spyglass、OpenAI 官方公告，以及 SemiAnalysis 的跟踪报告。所有数字截至 2026 年 5 月 8 日。
 </div>
 
 </body>
